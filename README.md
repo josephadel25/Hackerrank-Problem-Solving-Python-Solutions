@@ -53,7 +53,7 @@ Feel free to use these for learning or revising — but I encourage you to **try
 
 **Joseph Adel**  
 📧 josephadel404@gmail.com  
-🌐 [LinkedIn](https://www.linkedin.com/in/joseph-adel-b17)  
+🌐 [LinkedIn](https://www.linkedin.com/in/josephadel1)  
 💻 [GitHub](https://github.com/josephadel25)
 
 ---
