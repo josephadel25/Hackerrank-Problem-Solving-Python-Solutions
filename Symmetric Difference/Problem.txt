@@ -1,0 +1,39 @@
+Problem Name: Symmetric Difference
+
+Difficulty: Easy  
+Max Score: 10
+
+Problem Statement:
+Given two sets of integers, M and N, print their symmetric difference in ascending order.
+
+The symmetric difference is the set of elements that are in either of the sets but not in both.
+
+Input Format:
+- The first line contains an integer M, the number of elements in set A.
+- The second line contains M space-separated integers.
+- The third line contains an integer N, the number of elements in set B.
+- The fourth line contains N space-separated integers.
+
+Constraints:
+- 0 < M, N < 100
+
+Output Format:
+Print the symmetric difference integers in ascending order, each on a new line.
+
+Sample Input:
+4  
+2 4 5 9  
+4  
+2 4 11 12
+
+Sample Output:
+5  
+9  
+11  
+12
+
+Explanation:
+Set A = {2, 4, 5, 9}  
+Set B = {2, 4, 11, 12}  
+Symmetric Difference = {5, 9, 11, 12}  
+Sorted order: 5, 9, 11, 12

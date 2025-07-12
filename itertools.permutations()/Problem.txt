@@ -1,0 +1,41 @@
+Problem Name: itertools.permutations()
+
+Difficulty: Easy  
+Max Score: 10
+
+Problem Statement:
+You are given a string S.  
+Your task is to print all possible permutations of size k of the string in lexicographic sorted order.
+
+Function Description:
+Complete the permutations function in the editor below.
+
+Input Format:
+A single line containing the space-separated string S and the integer value k.
+
+Constraints:
+- 0 < k <= len(S)
+- The string S will contain only uppercase English letters.
+
+Output Format:
+Print the permutations of the string S in lexicographic sorted order, each on a new line.
+
+Sample Input:
+HACK 2
+
+Sample Output:
+AC  
+AH  
+AK  
+CA  
+CH  
+CK  
+HA  
+HC  
+HK  
+KA  
+KC  
+KH
+
+Explanation:
+All the permutations of size 2 of the string "HACK" are printed in sorted order.

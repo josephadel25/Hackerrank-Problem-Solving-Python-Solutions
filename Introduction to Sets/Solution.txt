@@ -1,0 +1,5 @@
+def average(array):
+    # your code goes here
+    l = set(array)
+    
+    return sum(l)/len(l)

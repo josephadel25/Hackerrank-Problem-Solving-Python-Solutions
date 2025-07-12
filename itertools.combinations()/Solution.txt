@@ -1,0 +1,9 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+from itertools import combinations
+s = input().split()
+d = sorted(s[0])
+e = int(s[1])
+for j in range(1 , e+1):
+    st = list(combinations(d , j))
+    for i in st:
+        print("".join(i))

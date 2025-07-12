@@ -1,0 +1,41 @@
+Problem Name: Introduction to Sets
+
+Difficulty: Easy  
+Max Score: 10
+
+Problem Statement:
+Now that you've got a taste of working with sets in Python, let's use them in a real-world application.
+
+Your task is to compute the average of the distinct heights of a group of plants.
+
+Function Description:
+Complete the function average in the editor below.
+
+average has the following parameter:
+- int array: an array of integers representing plant heights
+
+Returns:
+- float: the average of the unique heights, rounded to 3 decimal places
+
+Input Format:
+- The first line contains the integer N, the total number of plants.
+- The second line contains the N space-separated heights of the plants.
+
+Constraints:
+- 0 < N <= 100
+
+Output Format:
+- Output the average height value on a single line, rounded to 3 decimal places.
+
+Sample Input:
+10  
+161 182 161 154 176 170 167 171 170 174
+
+Sample Output:
+169.375
+
+Explanation:
+- The set of unique heights is {154, 161, 167, 170, 171, 174, 176, 182}
+- Their sum is 1355
+- The number of unique heights is 8
+- Average = 1355 / 8 = 169.375

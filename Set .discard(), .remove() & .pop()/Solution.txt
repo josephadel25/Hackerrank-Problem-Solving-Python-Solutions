@@ -1,0 +1,13 @@
+n = int(input())
+q = set(map(int, input().split()))
+m = int(input())
+for i in range(m):
+    s = input().split()
+    match s[0]:
+        case "pop":
+            q.pop()
+        case "remove":
+            q.remove(int(s[1]))
+        case "discard":
+            q.discard(int(s[1]))
+print(sum(q))

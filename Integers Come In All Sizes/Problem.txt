@@ -1,0 +1,33 @@
+Problem Name: Integers Come In All Sizes
+
+Difficulty: Easy  
+Max Score: 10
+
+Problem Statement:
+Python supports a wide range of integer values.
+
+You are given four integers: a, b, c, and d.  
+Compute the value of (a^b) + (c^d).
+
+Input Format:
+Four lines containing one integer each: a, b, c, and d.
+
+Constraints:
+- 1 <= a, b, c, d <= 1000
+
+Output Format:
+Print the result of (a^b) + (c^d)
+
+Sample Input:
+9  
+29  
+7  
+27
+
+Sample Output:
+4710194409608608369201743232
+
+Explanation:
+- 9^29 is a very large number  
+- 7^27 is also very large  
+- Their sum is printed as output

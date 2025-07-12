@@ -1,0 +1,40 @@
+Problem Name: Python: Division
+
+Difficulty: Easy
+Max Score: 10
+
+Problem Statement:
+The provided code stub reads two integers, a and b, from STDIN.
+
+Add logic to print two lines:
+1. The first line should contain the result of integer division a // b.
+2. The second line should contain the result of float division a / b.
+
+No rounding or formatting is necessary.
+
+Input Format:
+The first line contains the first integer, a.  
+The second line contains the second integer, b.
+
+Constraints:
+0 < a <= 10^10  
+0 < b <= 10^10
+
+Output Format:
+Print the two results:
+- The result of integer division (a // b)
+- The result of float division (a / b)
+
+Print each result on a separate line.
+
+Sample Input:
+4  
+3
+
+Sample Output:
+1  
+1.3333333333333333
+
+Explanation:
+- Integer division 4 // 3 = 1  
+- Float division 4 / 3 = 1.333333...

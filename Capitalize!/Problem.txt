@@ -1,0 +1,36 @@
+Problem Name: Capitalize!
+
+Difficulty: Easy  
+Max Score: 10
+
+Problem Statement:
+You are asked to ensure that the first and last names of people begin with a capital letter in their passport.  
+For example, "alison heck" should be capitalized correctly as "Alison Heck".
+
+Function Description:
+Complete the capitalize function in the editor below.
+
+capitalize has the following parameter:
+- string s: the string to be capitalized
+
+Returns:
+- string: the capitalized string
+
+Input Format:
+A single line of input containing the full name, s.
+
+Constraints:
+- 0 <= len(s) <= 1000  
+- The string consists of alphanumeric characters and spaces.
+
+Output Format:
+Print the capitalized string.
+
+Sample Input:
+chris alan
+
+Sample Output:
+Chris Alan
+
+Explanation:
+Each word in the input string is capitalized using Python’s string manipulation functions.

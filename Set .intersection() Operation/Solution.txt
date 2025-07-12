@@ -1,0 +1,14 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+n = int(input())
+num1 = list(map(int , input().split()))
+m = int(input())
+num2 = list(map(int , input().split()))
+l = []
+
+for i in num1:
+    if i in num2:
+        l.append(i)
+for i in num2:
+    if i in num1 and i not in l:
+        l.appent(i)
+print(len(l))

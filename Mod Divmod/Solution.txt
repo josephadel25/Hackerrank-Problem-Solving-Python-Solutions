@@ -1,0 +1,10 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+
+a = int(input())
+b = int(input())
+d= int(a/b)
+m = int(a%b)
+tup = (d , m)
+print(d)
+print(m)
+print(tup)

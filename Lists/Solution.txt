@@ -1,0 +1,20 @@
+if __name__ == '__main__':
+    N = int(input())
+    lis = []
+    for i in range(N):
+        s = input().split()
+        match s[0]:
+            case "insert":
+                lis.insert(int(s[1]) , int(s[2]))
+            case "append":
+                lis.append(int(s[1]))
+            case "remove":
+                lis.remove(int(s[1]))
+            case "sort":
+                lis.sort()
+            case "pop":
+                lis.pop()
+            case "reverse":
+                lis.reverse()
+            case "print":
+                print(lis)

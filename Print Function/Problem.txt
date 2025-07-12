@@ -1,0 +1,31 @@
+Problem Name: Print Function
+
+Difficulty: Easy  
+Max Score: 10
+
+Problem Statement:
+The included code stub will read an integer, n, from STDIN.
+
+Without using any string methods, try to print the following:  
+123...n
+
+Note that "..." represents the numbers between 3 and n with no spaces.
+
+Input Format:
+The first line contains an integer n.
+
+Constraints:
+1 <= n <= 150
+
+Output Format:
+Print the list of integers from 1 through n as a single line with no spaces between each number.
+
+Sample Input:
+3
+
+Sample Output:
+123
+
+Explanation:
+There are three integers to print: 1, 2, and 3.  
+Print them without spaces or newlines between them.

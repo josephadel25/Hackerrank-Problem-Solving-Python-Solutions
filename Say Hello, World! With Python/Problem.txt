@@ -1,0 +1,23 @@
+Problem Name: Say "Hello, World!" With Python
+
+Difficulty: Easy
+Max Score: 5
+
+Problem Statement:
+Print exactly the string
+Hello, World!
+to stdout using Python. There is no input to read in this challenge.
+
+Input Format:
+There is no input for this problem.
+
+Output Format:
+Print the exact string:
+Hello, World!
+
+Sample Output:
+Hello, World!
+
+Explanation:
+This is a simple introductory exercise to help you practice printing output in Python. 
+The goal is to ensure your programming environment is set up correctly and you can display text.

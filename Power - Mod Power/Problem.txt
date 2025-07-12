@@ -1,0 +1,35 @@
+Problem Name: Power - Mod Power
+
+Difficulty: Easy  
+Max Score: 10
+
+Problem Statement:
+You are given three integers: a, b, and m.  
+Print two lines:
+
+1. The result of a^b  
+2. The result of pow(a, b, m)
+
+Input Format:
+Three lines containing integers a, b, and m, respectively.
+
+Constraints:
+- 1 <= a <= 10  
+- 1 <= b <= 10  
+- 1 <= m <= 1000
+
+Output Format:
+Print the results as specified above.
+
+Sample Input:
+3  
+4  
+5
+
+Sample Output:
+81  
+1
+
+Explanation:
+- a^b = 3^4 = 81  
+- pow(3, 4, 5) = 81 % 5 = 1

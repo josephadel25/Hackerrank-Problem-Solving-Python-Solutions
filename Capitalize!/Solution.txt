@@ -1,0 +1,13 @@
+
+
+# Complete the solve function below.
+def solve(s):
+    o = ""
+    o = o + s[0].upper()
+    for i in range(1,len(s)):
+        
+        if s[i- 1] == " ":
+            o = o +s[i].upper()
+            continue
+        o = o  + s[i]  
+    return o

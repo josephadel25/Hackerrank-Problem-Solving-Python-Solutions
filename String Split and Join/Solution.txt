@@ -1,0 +1,10 @@
+def split_and_join(line):
+    l = ""
+    f = line.split(" ")
+    for i in f:
+        l = l + i
+        if i == f[-1]:
+            break
+        l = l + "-"
+    return l
+

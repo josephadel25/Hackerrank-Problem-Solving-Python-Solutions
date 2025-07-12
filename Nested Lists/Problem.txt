@@ -1,0 +1,45 @@
+Problem Name: Nested Lists
+
+Difficulty: Easy  
+Max Score: 10
+
+Problem Statement:
+Given the names and grades for each student in a class of N students, store them in a nested list and print the name(s) of any student(s) having the second lowest grade.
+
+Note: If there are multiple students with the second lowest grade, order their names alphabetically and print each name on a new line.
+
+Input Format:
+- The first line contains an integer, N, the number of students.
+- The next 2*N lines describe each student over two lines:
+    - The first line contains a student's name.
+    - The second line contains their grade (a float).
+
+Constraints:
+- 2 <= N <= 5
+- There will always be at least two students
+- Grades can be any float number between 0.0 and 100.0
+
+Output Format:
+Print the name(s) of student(s) having the second lowest grade in alphabetical order, each on a new line.
+
+Sample Input:
+5  
+Harry  
+37.21  
+Berry  
+37.21  
+Tina  
+37.2  
+Akriti  
+41  
+Harsh  
+39
+
+Sample Output:
+Berry  
+Harry
+
+Explanation:
+- The lowest grade is 37.2 (Tina)
+- The second lowest grade is 37.21
+- The students with that grade are Berry and Harry, printed in alphabetical order.

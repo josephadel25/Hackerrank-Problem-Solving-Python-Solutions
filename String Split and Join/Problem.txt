@@ -1,0 +1,34 @@
+Problem Name: String Split and Join
+
+Difficulty: Easy  
+Max Score: 10
+
+Problem Statement:
+You are given a string. Split the string on a " " (space) delimiter and join using a "-" (hyphen) as a delimiter.
+
+Function Description:
+Complete the split_and_join function in the editor below.
+
+split_and_join has the following parameters:
+- string line: a string of space-separated words
+
+Returns:
+- string: the resulting string with words joined by a hyphen
+
+Input Format:
+A single line of input containing the string.
+
+Constraints:
+- The string will have at most 1000 words
+
+Output Format:
+Print the resulting string after split and join.
+
+Sample Input:
+this is a string
+
+Sample Output:
+this-is-a-string
+
+Explanation:
+The words are split by spaces and joined by hyphens in the output.

@@ -1,0 +1,39 @@
+Problem Name: Set .add()
+
+Difficulty: Easy  
+Max Score: 10
+
+Problem Statement:
+Apply your understanding of the `.add()` set method.
+
+Task:
+Apply the `.add()` method to keep track of all country stamps.  
+Your task is to find the total number of distinct country stamps.
+
+Input Format:
+- The first line contains an integer N, the total number of country stamps.
+- The next N lines contain the names of the country stamps.
+
+Constraints:
+- 0 < N < 100
+
+Output Format:
+Print the total number of distinct country stamps on a single line.
+
+Sample Input:
+7  
+UK  
+China  
+USA  
+France  
+New Zealand  
+UK  
+France
+
+Sample Output:
+5
+
+Explanation:
+UK and France are repeated.  
+The unique country stamps are: UK, China, USA, France, New Zealand.  
+So the answer is 5.

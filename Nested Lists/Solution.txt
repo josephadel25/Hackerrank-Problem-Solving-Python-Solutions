@@ -1,0 +1,20 @@
+if __name__ == '__main__':
+    name = []
+    score = []
+    for _ in range(int(input())):
+        name.append(input())
+        score.append(float(input()))
+    lowest_name = []
+    lowest_score = min(score)
+    sec_low = []
+    for i in score:
+        if i>lowest_score:
+            sec_low.append(i)
+    sec_score = min(sec_low)
+    for i in range(len(score)):
+        if sec_score == score[i]:
+            lowest_name.append(name[i])
+    lowest_name.sort()
+    for i in lowest_name:
+        print(i)
+    

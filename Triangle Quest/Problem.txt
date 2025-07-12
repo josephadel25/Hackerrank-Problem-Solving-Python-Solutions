@@ -1,0 +1,37 @@
+Problem Name: Triangle Quest
+
+Difficulty: Medium  
+Max Score: 20
+
+Problem Statement:
+You are given an integer N.  
+For each number i from 1 to N - 1, print a number composed of i repetitions of the digit i, without using string operations.
+
+That is, for each i (1 <= i < N), print:
+111...1 (i times)
+
+But using only math operations.
+
+Hint:
+You can use the following expression:
+((10 ** i) - 1) // 9 gives you a number with i digits, all 1s.
+
+So, i * ((10 ** i - 1) // 9) gives you i repeated i times.
+
+Input Format:
+A single line containing integer N.
+
+Constraints:
+- 1 < N < 10
+
+Output Format:
+Print the pattern as described.
+
+Sample Input:
+5
+
+Sample Output:
+1  
+22  
+333  
+4444

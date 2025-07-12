@@ -1,0 +1,10 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+n = int(input())
+city = []
+for i in range(n):
+    s = input()
+    if s in city:
+        continue
+    else:
+        city.append(s)
+print(len(city))

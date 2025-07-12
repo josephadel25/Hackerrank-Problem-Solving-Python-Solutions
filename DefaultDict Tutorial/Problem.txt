@@ -1,0 +1,44 @@
+Problem Name: DefaultDict Tutorial
+
+Difficulty: Easy  
+Max Score: 10
+
+Problem Statement:
+In this challenge, you will be given 2 integers, n and m.  
+There are n words belonging to group A and m words belonging to group B.  
+For each word in group B, find and print the indices of all occurrences in group A.  
+If the word does not appear in group A, print -1.
+
+Function Description:
+You need to use the collections.defaultdict container.
+
+Input Format:
+- The first line contains integers n and m separated by a space.
+- The next n lines contain the words belonging to group A.
+- The next m lines contain the words belonging to group B.
+
+Constraints:
+- 1 <= n <= 10000  
+- 1 <= m <= 100  
+
+Output Format:
+- For each word in group B, output the indices (1-based) of all its occurrences in group A on a single line.  
+- If the word does not occur in group A, print -1.
+
+Sample Input:
+5 2  
+a  
+a  
+b  
+a  
+b  
+a  
+b
+
+Sample Output:
+1 2 4  
+3 5
+
+Explanation:
+- The word 'a' appears at positions 1, 2, and 4 in group A.
+- The word 'b' appears at positions 3 and 5 in group A.

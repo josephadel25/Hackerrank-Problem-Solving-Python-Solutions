@@ -1,0 +1,50 @@
+Problem Name: collections.deque()
+
+Difficulty: Easy  
+Max Score: 10
+
+Problem Statement:
+A deque is a double-ended queue where elements can be added or removed from both ends.
+
+Your task is to perform N operations on an empty deque d.
+
+Operations include:
+- append x
+- appendleft x
+- pop
+- popleft
+
+Function Description:
+Use the `collections.deque` data structure to efficiently perform append and pop operations from both ends.
+
+Input Format:
+- The first line contains an integer N, the number of operations.
+- The next N lines contain the operations.
+
+Constraints:
+- 1 <= N <= 100
+
+Output Format:
+Print the space-separated elements of the deque after performing all operations.
+
+Sample Input:
+6  
+append 1  
+append 2  
+appendleft 3  
+pop  
+popleft  
+append 4
+
+Sample Output:
+2 4
+
+Explanation:
+After performing the given operations step by step:
+- append 1 → [1]
+- append 2 → [1, 2]
+- appendleft 3 → [3, 1, 2]
+- pop → [3, 1]
+- popleft → [1]
+- append 4 → [1, 4]
+Final output: 1 4

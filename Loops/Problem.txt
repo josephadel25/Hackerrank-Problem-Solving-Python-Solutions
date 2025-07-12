@@ -1,0 +1,29 @@
+Problem Name: Loops
+
+Difficulty: Easy  
+Max Score: 10
+
+Problem Statement:
+The provided code stub reads an integer, n, from STDIN. For all non-negative integers i < n, print i².
+
+Input Format:
+A single integer, n.
+
+Constraints:
+1 <= n <= 20
+
+Output Format:
+Print n lines, one corresponding to each i² where 0 <= i < n.
+
+Sample Input:
+5
+
+Sample Output:
+0  
+1  
+4  
+9  
+16
+
+Explanation:
+The output prints the square of each number from 0 up to (but not including) n.

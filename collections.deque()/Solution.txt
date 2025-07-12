@@ -1,0 +1,21 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+from collections import deque
+d = deque()
+n = int(input())
+for i in range(n):
+    operation = input()
+    split_op = operation.split(" ")
+    match split_op[0]:
+        case "append":
+            d.append(int(split_op[1]))
+        case "appendleft":
+            d.appendleft(int(split_op[1]))
+        case "pop":
+            d.pop()
+        case "popleft":
+            d.popleft()
+s = ""
+for i in d:
+    s = s  +str(i)+ " "
+print(s)
+    

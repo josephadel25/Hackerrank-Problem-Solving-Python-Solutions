@@ -1,0 +1,50 @@
+Problem Name: Text Alignment
+
+Difficulty: Easy  
+Max Score: 10
+
+Problem Statement:
+In Python, a string of text can be aligned left, right, and center.
+
+Given an integer thickness, your task is to print the alphabet letter 'H' with a thickness of t.
+
+Rules:
+- The letter 'H' will be printed using capital letter 'H'.
+- The thickness is an odd number.
+- The height of the output is 2 * thickness.
+- The width of the output will always be 2 * thickness - 1.
+
+Function Description:
+You must write code that prints a stylized 'H' using string alignment methods like `.rjust()`, `.ljust()`, and `.center()`.
+
+Input Format:
+A single integer, thickness, the thickness of the letter 'H'.
+
+Constraints:
+- 0 < thickness < 100
+- thickness must be an odd number
+
+Output Format:
+Print the stylized 'H' using string methods and alignment.
+
+Sample Input:
+5
+
+Sample Output:
+    H    
+    H    
+    H    
+    H    
+    H    
+HHHHHHHHH
+    H    
+    H    
+    H    
+    H    
+    H    
+HHHHHHHHH
+    H    
+    H    
+    H    
+    H    
+    H    

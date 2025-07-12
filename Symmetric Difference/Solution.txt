@@ -1,0 +1,14 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+M = int(input())
+m_arr = list(map(int, input().split()))
+m_arr = set(m_arr)
+N = int(input())
+n_arr = list(map(int, input().split()))
+n_arr = set(n_arr)
+m1 = m_arr.difference(n_arr)
+m2 = n_arr.difference(m_arr)
+m =m1.union(m2)
+
+while len(m) !=0:
+    print(min(m))
+    m.remove(min(m))

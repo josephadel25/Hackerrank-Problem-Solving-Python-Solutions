@@ -1,0 +1,34 @@
+
+o = input().split(" ")
+N = int(o[0])
+M = int(o[1])
+pyramid = 1
+py = ".|."
+sla = "-"
+welc = N // 2
+wle_co = (M - 7) // 2 
+for row in range(N):
+    str_row = ""
+    if row == welc:
+        for k in range(wle_co):
+            str_row = str_row + sla
+        str_row = str_row + "WELCOME"
+        for k in range(wle_co):
+            str_row = str_row + sla
+        pyramid -= 2
+        print(str_row)
+        continue
+    pyramid_loca = M - pyramid * 3
+    sla_count = round(pyramid_loca / 2)
+    for k in range(sla_count):
+        str_row = str_row + sla
+    for l in range(pyramid):
+        str_row = str_row + py
+    for k in range(sla_count):
+        str_row = str_row + sla
+    print(str_row)
+    if row < welc:
+        pyramid +=2
+    elif row > welc:
+        pyramid -=2
+    

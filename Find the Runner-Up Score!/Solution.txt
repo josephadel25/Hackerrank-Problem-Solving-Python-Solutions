@@ -1,0 +1,10 @@
+if __name__ == '__main__':
+    n = int(input())
+    arr = list(map(int, input().split()))
+    arr.sort()
+    max  = arr[-1]
+    sec = -1000
+    for i in arr:
+        if(i > sec and i < max):
+            sec = i
+    print(sec)

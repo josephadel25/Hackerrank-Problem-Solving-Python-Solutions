@@ -1,0 +1,52 @@
+Problem Name: String Validators
+
+Difficulty: Easy  
+Max Score: 10
+
+Problem Statement:
+You are given a string s.  
+Your task is to find out if the string contains:
+
+- alphanumeric characters
+- alphabetical characters
+- digits
+- lowercase characters
+- uppercase characters
+
+Function Description:
+Complete the following functions in the editor below.
+
+The output should be in the following order:
+
+1. Print True if s has any alphanumeric characters, otherwise print False  
+2. Print True if s has any alphabetical characters, otherwise print False  
+3. Print True if s has any digits, otherwise print False  
+4. Print True if s has any lowercase characters, otherwise print False  
+5. Print True if s has any uppercase characters, otherwise print False
+
+Input Format:
+A single line containing a string s.
+
+Constraints:
+- 0 < len(s) < 1000
+
+Output Format:
+Print 5 lines as described above.
+
+Sample Input:
+qA2
+
+Sample Output:
+True  
+True  
+True  
+True  
+True
+
+Explanation:
+The string contains:  
+- Alphanumeric characters: q, A, 2  
+- Alphabetical characters: q, A  
+- Digits: 2  
+- Lowercase: q  
+- Uppercase: A

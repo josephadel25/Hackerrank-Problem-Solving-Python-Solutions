@@ -1,0 +1,13 @@
+
+import math
+
+def wrap(string, max_width):
+    m = len(string)
+    s = ""
+    for i in range(0,m , max_width):
+        s = s + string[i : i+max_width]
+        if i == m:
+            break
+        s = s + "\n"
+    return s
+

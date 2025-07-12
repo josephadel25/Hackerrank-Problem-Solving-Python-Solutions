@@ -1,0 +1,45 @@
+Problem Name: Mutations
+
+Difficulty: Easy  
+Max Score: 10
+
+Problem Statement:
+We have seen that lists are mutable (they can be changed), and tuples are immutable (they cannot be changed).
+
+Let's try to understand this with an example:
+You are given a string, and you need to replace a character at a specific index with a new character.
+
+Function Description:
+Complete the mutate_string function in the editor below.
+
+mutate_string has the following parameters:
+- string string: the original string
+- int position: the index to insert the character at
+- string character: the character to insert
+
+Returns:
+- string: the string after mutation
+
+Input Format:
+The first line contains a string, s.  
+The second line contains an integer i, the index location.  
+The third line contains a single character c.
+
+Constraints:
+- 0 <= i < len(s)
+- The string will only contain printable ASCII characters.
+
+Output Format:
+Print the mutated string.
+
+Sample Input:
+abracadabra  
+5  
+k
+
+Sample Output:
+abrackdabra
+
+Explanation:
+The original string: abracadabra  
+Change the character at index 5 to 'k' → abrackdabra

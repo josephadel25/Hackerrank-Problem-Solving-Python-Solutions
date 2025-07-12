@@ -1,0 +1,43 @@
+Problem Name: What's Your Name?
+
+Difficulty: Easy  
+Max Score: 10
+
+Problem Statement:
+You are given the first name and last name of a person on two different lines.  
+Your task is to read them and print the following:
+
+Hello first_name last_name! You just delved into python.
+
+Function Description:
+Complete the print_full_name function in the editor below.
+
+print_full_name has the following parameters:
+- string first: the first name
+- string last: the last name
+
+Returns:
+- None
+
+Prints:
+- A greeting message using the given first and last name.
+
+Input Format:
+The first line contains the first name.  
+The second line contains the last name.
+
+Constraints:
+- The length of the first and last name ≤ 10
+
+Output Format:
+Print the output as specified above.
+
+Sample Input:
+Ross  
+Taylor
+
+Sample Output:
+Hello Ross Taylor! You just delved into python.
+
+Explanation:
+The function prints the message using the provided first and last name.

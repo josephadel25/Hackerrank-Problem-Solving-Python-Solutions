@@ -1,0 +1,45 @@
+Problem Name: Text Wrap
+
+Difficulty: Easy  
+Max Score: 10
+
+Problem Statement:
+You are given a string s and width w.  
+Your task is to wrap the string into a paragraph of width w.
+
+Function Description:
+Complete the wrap function in the editor below.
+
+wrap has the following parameters:
+- string s: a long string to be wrapped
+- int width: the width to wrap to
+
+Returns:
+- string: a single string with line breaks ('\n') where the breaks should be
+
+Input Format:
+The first line contains a string, s.  
+The second line contains the width, w.
+
+Constraints:
+- 0 < len(s) < 1000  
+- 0 < w < len(s)
+
+Output Format:
+Print the text wrapped at every width characters.
+
+Sample Input:
+ABCDEFGHIJKLIMNOQRSTUVWXYZ  
+4
+
+Sample Output:
+ABCD  
+EFGH  
+IJKL  
+IMNO  
+QRST  
+UVWX  
+YZ
+
+Explanation:
+The input string is split every 4 characters.

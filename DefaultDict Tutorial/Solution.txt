@@ -1,0 +1,23 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+from collections import defaultdict
+
+n , m = map(int , input().split())
+d = defaultdict(list)
+for i in range(n):
+    s = input()
+    d['A'].append(s)
+for i in range(m):
+    s = input()
+    d['B'].append(s)
+val_a = d['A']
+val_b = d['B']
+for i in range(m):
+    s = ""
+    if val_b[i] in val_a:  
+        for j in range(len(val_a)):
+            if val_a[j] == val_b[i]:
+                s = s + str(j+1) + " "
+        print(s)
+    else:
+        print(-1)
+    

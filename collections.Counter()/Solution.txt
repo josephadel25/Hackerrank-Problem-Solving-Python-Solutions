@@ -1,0 +1,12 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+from collections import Counter
+x = int(input())
+shoes = list(map(int , input().split()))
+shoes = Counter(shoes)
+money = 0
+for i in range(int(input())):
+    s = list(map(int , input().split()))
+    if shoes[s[0]] > 0:
+        shoes[s[0]] -= 1 
+        money += s[1]
+print(money)

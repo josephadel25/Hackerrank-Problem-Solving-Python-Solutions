@@ -1,0 +1,34 @@
+Problem Name: Set .intersection() Operation
+
+Difficulty: Easy  
+Max Score: 10
+
+Problem Statement:
+The .intersection() operator returns the intersection of a set and the set of elements in an iterable.  
+Sometimes, the "&" operator is used in place of .intersection().
+
+Your task is to find the total number of students who have subscribed to **both** the English and the French newspapers.
+
+Input Format:
+- The first line contains the number of students who have subscribed to the English newspaper.  
+- The second line contains the space-separated list of student roll numbers subscribed to the English newspaper.  
+- The third line contains the number of students who have subscribed to the French newspaper.  
+- The fourth line contains the space-separated list of student roll numbers subscribed to the French newspaper.
+
+Constraints:
+- 0 < Total number of students < 1000
+
+Output Format:
+Print the total number of students who have subscribed to both newspapers.
+
+Sample Input:
+9  
+1 2 3 4 5 6 7 8 9  
+9  
+10 1 2 3 11 21 55 6 8
+
+Sample Output:
+5
+
+Explanation:
+The intersection of both sets is {1, 2, 3, 6, 8}, so the output is 5.

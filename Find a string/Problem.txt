@@ -1,0 +1,40 @@
+Problem Name: Find a string
+
+Difficulty: Easy  
+Max Score: 10
+
+Problem Statement:
+In this challenge, the user enters a string and a substring.  
+You have to print the number of times that the substring occurs in the given string.  
+String traversal will take place from left to right, not from right to left.
+
+Function Description:
+Complete the count_substring function in the editor below.
+
+count_substring has the following parameters:
+- string string: the string to search within
+- string sub_string: the substring to search for
+
+Returns:
+- int: the number of occurrences of sub_string in string
+
+Input Format:
+The first line contains the string.  
+The second line contains the substring.
+
+Constraints:
+- 1 <= len(string) <= 200  
+- Each character in the string is an ASCII character.
+
+Output Format:
+Print the number of times the substring occurs in the given string.
+
+Sample Input:
+ABCDCDC  
+CDC
+
+Sample Output:
+2
+
+Explanation:
+CDC occurs twice in ABCDCDC: once starting at index 2 and once at index 4.

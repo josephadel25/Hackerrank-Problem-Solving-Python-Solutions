@@ -1,0 +1,11 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+from itertools import permutations
+
+s , n = input().split()
+p = list(permutations(sorted(s) , int(n)))
+
+for i in p:
+    o = ""
+    for j in i:
+        o = o + j
+    print(o)

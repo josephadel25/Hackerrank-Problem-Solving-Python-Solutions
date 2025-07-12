@@ -1,0 +1,15 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+n = int(input())
+n1 = list(map(int , input().split()))
+m = int(input())
+m1 = list(map(int , input().split()))
+
+st = []
+for i in n1:
+    st.append(i)
+for i in m1:
+    if i in st:
+        continue
+    else :
+        st.append(i)
+print(len(st))

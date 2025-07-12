@@ -1,0 +1,34 @@
+Problem Name: Tuples
+
+Difficulty: Easy  
+Max Score: 10
+
+Problem Statement:
+Given an integer, n, and n space-separated integers as input, create a tuple, t, of those n integers.  
+Then compute and print the result of hash(t).
+
+Note:  
+The hash() function returns the hash value of an object (if it has one).  
+Hash values are integers used to quickly compare dictionary keys while looking up a dictionary.
+
+Input Format:
+- The first line contains an integer, n, denoting the number of elements in the tuple.
+- The second line contains n space-separated integers.
+
+Constraints:
+- 1 <= n <= 20
+- Integers will be in the range: 0 <= integer <= 100
+
+Output Format:
+Print the hash value of the tuple.
+
+Sample Input:
+2  
+1 2
+
+Sample Output:
+3713081631934410656
+
+Explanation:
+The tuple is (1, 2).  
+The hash of the tuple is computed and printed using Python's built-in hash() function.
